@@ -1,26 +1,17 @@
-Seyahat Planlama Uygulaması:
 
-Seyahat Planlama Uygulaması, kullanıcıların seyahat rotaları oluşturmasını ve konaklama seçeneklerini yönetmesini sağlayan bir PyQt5 tabanlı bir uygulamadır. 
-Bu uygulama, seyahat rotalarını oluşturmak, seyahat detaylarını eklemek, konaklama tesislerini eklemek, 
-rotaları silmek ve konaklama seçeneklerini silmek gibi temel işlevleri içerir.
+Tabii, işte kısaltılmış bir dökümantasyon:
 
-Kullanım Kılavuzu
-Rota Ekleme:
-"Rota Detayları" giriş alanına seyahat rotası detaylarını girin.
-"Seyahat Süresi (Gün)" giriş alanına seyahat süresini belirtin.
-"Rota Ekle" düğmesine tıklayarak yeni bir seyahat rotası ekleyin.
+Online Eğitim Platformu
+Bu uygulama, çeşitli derslere kayıt olmayı sağlayan basit bir online eğitim platformudur. Kullanıcılar, mevcut dersler arasından seçim yapabilir ve kayıt olabilirler. Ayrıca, kullanıcılar kayıt oldukları derslere ait bilgileri görüntüleyebilirler.
 
-Detay Ekleme:
-Bir rota seçtikten sonra, "Detay" giriş alanına ek detaylar ekleyin.
-"Detay Ekle" düğmesine tıklayarak rotaya detay ekleyin.
+Kullanım
+Uygulama, PyQt6 kütüphanesi kullanılarak geliştirilmiştir. Ana pencerede, mevcut dersler listelenir ve kullanıcılar derslere kayıt olabilirler. Ayrıca, menü çubuğundan "Kayıtlar" sekmesi altından kayıtlı derslere ait bilgileri görüntüleyebilirler.
 
-Konaklama Ekleme:
-"Konaklama Tesisi Adı" giriş alanına konaklama tesisi adını girin.
-"Fiyat" giriş alanına konaklama fiyatını girin.
-"Konaklama Ekle" düğmesine tıklayarak yeni bir konaklama seçeneği ekleyin.
-Rotaları ve Konaklama Seçeneklerini Görüntüleme:
-"Rotalar" listesinden mevcut rotaları görüntüleyin. Bir rota seçtiğinizde, detaylarını görmek için kullanabilirsiniz.
-"Konaklama Seçenekleri" listesinden mevcut konaklama seçeneklerini görüntüleyin.
+Ana Pencere
+Ana pencere, mevcut dersleri listeler ve kullanıcının kayıt olmasını sağlar. Her ders için bir buton bulunur ve kullanıcılar bu butonlara tıklayarak kayıt olabilirler. Ayrıca, menü çubuğunda "Kayıtlar" sekmesi bulunur, bu sekme altından kayıtlı derslere ait bilgiler görüntülenebilir.
 
-Rota veya Konaklama Silme:
-Bir rota veya konaklama seçtikten sonra, ilgili "Sil" düğmesine tıklayarak seçilen rotayı veya konaklama seçeneğini silin.
+Kayıt Dialogu
+Kullanıcı bir ders için kayıt olmak istediğinde, bir kayıt formu dialogu açılır. Bu formda kullanıcıdan isim, soyisim, telefon numarası ve e-posta adresi gibi bilgiler istenir.
+
+Kayıtlar Penceresi
+Kayıtlar penceresi, kullanıcının kaydolduğu derslere ait bilgileri listeler. Her bir kayıt, isim, soyisim ve ders adıyla listelenir. Kullanıcılar bir kayıda tıkladıklarında, ilgili kayda ait detayları içeren bir iletişim kutusu görüntülenir.
