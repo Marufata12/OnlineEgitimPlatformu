@@ -1,6 +1,6 @@
 import sys
-from PyQt6.QtWidgets import QApplication, QMainWindow, QLabel, QPushButton, QVBoxLayout, QWidget, QLineEdit, QMessageBox, QListWidget, QListWidgetItem, QDialog, QDialogButtonBox
-from PyQt6.QtCore import Qt
+from PyQt5.QtWidgets import QApplication, QMainWindow, QLabel, QPushButton, QVBoxLayout, QWidget, QLineEdit, QMessageBox, QListWidget, QListWidgetItem, QDialog, QDialogButtonBox
+from PyQt5.QtCore import Qt
 
 
 class AnaPencere(QMainWindow):
@@ -27,7 +27,7 @@ class AnaPencere(QMainWindow):
         for ders in self.dersler:
             buton = QPushButton(ders)
             buton.setStyleSheet("QPushButton { padding: 10px; font-size: 16px; } QPushButton:hover { background-color: #f0f0f0; }")
-            buton.clicked.connect(lambda checked, ders=ders: self.kayit_ol(ders))
+            buton.clicked.connect(lambda checked, ders=ders: self.kayit_ol(ders))  # Düzeltme yapıldı
             self.butonlar.append(buton)
             self.layout.addWidget(buton)
 
